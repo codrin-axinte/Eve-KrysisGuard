@@ -37,6 +37,12 @@ class Task extends Model
 	protected $casts = [
 		'completed' => 'bool',
 	];
+
+	public function getRouteKeyName() {
+		return 'slug';
+	}
+
+
 	/**
 	 * @param QueryBuilder|Task $query
 	 * @param int $value
@@ -44,6 +50,11 @@ class Task extends Model
 	 */
 	public function scopeCategory( $query, $value ) {
 		return $query->where('category', $value);
+    }
+
+
+    public function user(){
+		return $this->belongsTo(User::class);
     }
 
 	/**
@@ -60,6 +71,14 @@ class Task extends Model
     }
 
 	public function getPathAttribute() {
-		return route('tasks.show', [$this->category, $this]);
+		return route('tasks.show',  $this);
     }
+
+	public function getDateAttribute() {
+		return $this->created_at->toFormattedDateString();
+    }
+
+	public function getIconAttribute() {
+		return $this->category == 0 ? 'ion-ios-gear-outline' : 'ion-ios-world';
+	}
 }

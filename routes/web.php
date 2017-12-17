@@ -22,8 +22,8 @@ Route::get('/contact', 'ContactController@index')->name('contact.index');
 Route::post('/contact', 'ContactController@store')->name('contact.store');
 Route::get('/blog/{category?}', 'Blog\\PostController@index')->name('posts.index');
 Route::get('/blog/{category}/{post}', 'Blog\\PostController@show')->name('posts.show');
-Route::get('/proposals/{category?}', 'TaskController@index')->name('tasks.index');
-Route::get('/proposals/{category}/{$task}', 'TaskController@show')->name('tasks.show');
+Route::get('/proposals', 'TaskController@index')->name('tasks.index');
+Route::get('/proposals/{task}', 'TaskController@show')->name('tasks.show');
 //Auth::routes();
 //Route::get('/home', 'HomeController@index')->name('home');
 

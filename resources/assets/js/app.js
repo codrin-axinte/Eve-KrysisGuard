@@ -20,6 +20,8 @@ Vue.component('app-widget', require('./components/Widgets/Widget'));
 Vue.component('ore-calculator', require('./components/OreCalculator'));
 Vue.component('ore-table', require('./components/OreTable'));
 Vue.component('post-card', require('./components/Blog/PostCard'));
+Vue.component('task', require('./components/Tasks/Task'));
+
 const app = new Vue({
     el: '#app'
 });
