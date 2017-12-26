@@ -1,58 +1,74 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+# Eve Corp
+> EVE Online corporation website.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+![Intro Image](https://github.com/codrin-axinte/Eve-Corp/blob/master/public/images/bg1.jpg)
+The main purpose of this application it was the Ore Calculator which will calculate the ore unit price set by the corp director by the amount mined. After some updates, we decided to grow it and make it an official corporation website with more features to help all of us from beginners to the more experienced players.
 
-## About Laravel
+> Ore Calculator Snapshot
+![Ore Calculator](https://github.com/codrin-axinte/images/blob/master/ore-calculator.jpg)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+## About The Corp
+> Welcome to the Guard Capsuleer, 
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+> Krysis Guard was commissioned during the turmoil of the Amarr Empire's downfall to the Minmatar Republic forces over the past year.
+With our systems destroyed, the High Council of the Royal Families commissioned an independent body of Paladins to reclaim lost systems and worlds put to flame from the Republic's Navies and Militias. With that - We hold carry our Shields and Swords and trust in the wings of the Angels to carry us forward. 
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
+> Krysis Guard is a PvE-vP based corporation operating in Amarr Faction Warfare Low-sec systems. Faction Warfare allows us to have in a friendly casual environment 24.7 PvP activities while maintaining a strong industrial backbone and economy. 
 
-## Learning Laravel
+> We provide a seeded market in our primary system as well as daily PvP fleets and Mining fleets. From our mining fleets - Krysis Guard authorizes purchases from its members via contracts for all ore mined at set prices giving our industrial members the ability to generate incomes. 
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
+> We hope you will enjoy your time while flying with and fighting for the Guard.
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
 
-## Laravel Sponsors
+## Tools & Framework
 
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
+### Language
+Application is written in **PHP**. As a top layer, [Laravel Framwerok](https://laravel.com/) is used for rapid development, security and its elegance in code.
+Laravel 
+> **Tailored for your team.**
+Whether you're a solo developer or a 20 person team, Laravel is a breath of fresh air. Keep everyone in sync using Laravel's database agnostic migrations and schema builder.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Pulse Storm](http://www.pulsestorm.net/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
+> **Modern toolkit. Pinch of magic.**
+An amazing ORM, painless routing, powerful queue library, and simple authentication give you the tools you need for modern, maintainable PHP. We sweat the small stuff to help you deliver amazing applications.
+
+
+### IDE
+As for tooling I am using my old friend [PhpStorm](https://www.jetbrains.com/phpstorm/). I've talked about it [here](https://github.com/codrin-axinte/Glossary-of-Tech-Terms/blob/master/IDE.md#personal-choices)
+Sometimes I use [Visual Code](https://code.visualstudio.com/) too for fast editing and prototyping.
+
+## Release History
+* 0.1.3
+    * CHANGED: Moved app scripts in separate hooks.
+    * ADDED: SSO Login with EVE ONLINE
+* 0.1.2
+    * CHANGED: Killboard loads in frame
+    * ADDED: Blog
+    * ADDED: About The Corp text
+* 0.1.1
+    * CHANGED: To professional design
+    * ADDED: Killboard
+    * ADDED: Download Desktop Application
+* 0.1.0
+    * The first proper release
+    * ADDED: Ore Calculator
+* 0.0.1
+    * Work in progress
+
+## Meta
+
+Codrin Axinte – [@LinkedIn](https://www.linkedin.com/in/codrin-axinte-93776814b/)
+ * xntcodrin@yahoo.com
+ * loopbytes@yahoo.com
+ * codrin.axinte@loopbytes.com
+
+Distributed under the [Apache License 2.0](https://github.com/codrin-axinte/Eve-Corp/blob/master/LICENSE) license. See ``LICENSE`` for more information.
+
+[https://github.com/codrin-axinte](https://github.com/codrin-axinte/)
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+1. Fork it (<https://github.com/codrin-axinte/Eve-Corp/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
