@@ -1,4 +1,17 @@
 {
     "last_remote_check": 1512508057,
-    "hooks": []
+    "hooks": {
+        "eve-bridge": {
+            "name": "eve-bridge",
+            "description": "The bridge between a laravel application and EVE Online api.",
+            "version": null,
+            "enabled": true
+        },
+        "miner": {
+            "name": "miner",
+            "description": "Tool for mining help in EVE online",
+            "version": null,
+            "enabled": true
+        }
+    }
 }

@@ -17,15 +17,17 @@ Route::get('/', 'PageController@index');
 Route::view('/privacy', 'privacy');
 Route::view('/donate', 'donate');
 Route::view('/killboard', 'killboard');
-Route::get('/ores', 'OreController@index')->name('ores.index');
 Route::get('/contact', 'ContactController@index')->name('contact.index');
 Route::post('/contact', 'ContactController@store')->name('contact.store');
 Route::get('/blog/{category?}', 'Blog\\PostController@index')->name('posts.index');
 Route::get('/blog/{category}/{post}', 'Blog\\PostController@show')->name('posts.show');
-Route::get('/proposals', 'TaskController@index')->name('tasks.index');
-Route::get('/proposals/{task}', 'TaskController@show')->name('tasks.show');
-//Auth::routes();
-//Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/skills', 'PageController@skills');
+// AUTH
+\Eve::loadRoutes();
+Route::group(['middleware' => 'auth', 'prefix' => 'user'], function(){
+	Route::get('/about/{user?}',  'ProfileController@about')->name('user.about');
+	\Miner::loadRoutes();
+});
 
 // ADMIN ROUTES
 Route::group(['prefix' => 'admin'], function () {

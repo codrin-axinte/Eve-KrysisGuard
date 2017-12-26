@@ -63,12 +63,17 @@
         <div class="container">
             <div class="nk-contacts-left">
                 <div class="nk-navbar">
-                    {{ menu('top-menu', 'layouts.top-menu') }}
+                    {{ menu('top-menu', 'menu.default') }}
                 </div>
             </div>
             <div class="nk-contacts-right">
                 <div class="nk-navbar">
-                    {{ menu('socials', 'layouts.top-menu') }}
+                    <ul class="nk-nav">
+                        <li>
+                            @component('components.button-login')
+                            @endcomponent
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -76,7 +81,9 @@
     @include('common.navbar')
 </header>
 @include('common.navbar-mobile')
-
+{{--@if(Voyager::can('browse_admin'))
+    @include('common.sidebar')
+@endif--}}
 <div class="nk-main">
     <div id="app">
         @yield('content')

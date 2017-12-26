@@ -34,5 +34,10 @@ return [
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
+	'eve' => [
+		'client_id' => env('EVE_CLIENT_ID'),
+		'client_secret' => env('EVE_CLIENT_SECRET'),
+		'redirect' => 'http://eve.test/login/callback',
+	]
 
 ];

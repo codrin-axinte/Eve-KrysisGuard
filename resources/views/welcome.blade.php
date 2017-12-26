@@ -25,7 +25,7 @@
                 <div class="container">
                     <div class="nk-header-text"><h1 class="nk-title display-3">Welcome to {{ $site_title }}</h1>
                         <div class="nk-gap-2"></div>
-                        <a href="{{ route('ores.index') }}"
+                        <a href="{{ route('miner.ores.index') }}"
                            class="nk-btn nk-btn-lg nk-btn-color-main-1 link-effect-4">
                             <span>@lang('Ore Calculator')</span>
                         </a>
@@ -90,7 +90,7 @@
                 <div class="nk-ibox">
                     <div class="nk-ibox-icon nk-ibox-icon-circle"><span class="ion-ios-calculator"></span></div>
                     <div class="nk-ibox-cont"><h2 class="nk-ibox-title">Ore Calculator</h2>
-                        You can use the <a title="Ore Calculator" href="{{ route('ores.index') }}">Ore Calculator</a> to ease your job when creating a contract. The <strong>unit prices are set</strong> and <strong>updated</strong> by the mighty <strong>Seravok</strong> himself, so you don't need the worry 'bout that. First, the prices, are updated here and after anywhere else.
+                        You can use the <a title="Ore Calculator" href="{{ route('miner.ores.index') }}">Ore Calculator</a> to ease your job when creating a contract. The <strong>unit prices are set</strong> and <strong>updated</strong> by the mighty <strong>Seravok</strong> himself, so you don't need the worry 'bout that. First, the prices, are updated here and after anywhere else.
                     </div>
                 </div>
             </div>

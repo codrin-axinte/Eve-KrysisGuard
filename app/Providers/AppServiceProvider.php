@@ -5,6 +5,7 @@ namespace App\Providers;
 use App\Category;
 use App\Page;
 use App\Post;
+use App\Services\Eve;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Schema;
 
@@ -22,15 +23,15 @@ class AppServiceProvider extends ServiceProvider
 	    \View::share('site_title', setting('site.title', config('app.name')));
 
 		$this->bootVoyager();
+
     }
     /**
      * Register any application services.
      *
      * @return void
      */
-    public function register()
-    {
-        //
+    public function register() {
+
     }
 
 	private function bootVoyager(){

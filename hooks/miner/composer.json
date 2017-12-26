@@ -1,0 +1,22 @@
+{
+  "name": "miner",
+  "description": "Tool for mining help in EVE online",
+  "require": {
+    "larapack/hooks": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Miner\\": "src/"
+    }
+  },
+  "extra": {
+    "hook": {
+      "providers": [
+        "Miner\\MinerServiceProvider"
+      ],
+      "aliases": {
+        "Miner": "Miner\\Facades\\Miner"
+      }
+    }
+  }
+}

@@ -48,13 +48,13 @@
                             </ul>
                         </li>
                     </ul>
-                </div>
+                </div>{{--
                 <div class="nk-nav-row">
                     <div class="nk-nav-footer">&copy; 2016 nK Group Inc. Developed in association with LoremInc.
                         IpsumCompany, SitAmmetGroup, CumSit and related logos are registered trademarks. All Rights
                         Reserved.
                     </div>
-                </div>
+                </div>--}}
             </div>
         </div>
     </div>

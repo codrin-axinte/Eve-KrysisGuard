@@ -46,6 +46,8 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder|\TCG\Voyager\Models\Post withTranslation($locale = null, $fallback = true)
  * @method static \Illuminate\Database\Eloquent\Builder|\TCG\Voyager\Models\Post withTranslations($locales = null, $fallback = true)
  * @mixin \Eloquent
+ * @property-read mixed $date
+ * @property-read mixed $path
  */
 class Post extends \TCG\Voyager\Models\Post {
 

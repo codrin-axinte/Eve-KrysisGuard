@@ -30,4 +30,20 @@ class PageController extends Controller {
 
 		return view( 'page-default', compact( 'page' ) );
 	}
+
+	public function skills() {
+		$file = base_path( '_external/SkillTree.xml' );
+		$doc = new \DOMDocument();
+		$doc->load($file);
+		$root = $doc->getElementsByTagName('result')->item(0)->getElementsByTagName('rowset')->item(0);
+		foreach ($root->childNodes as $node){
+			if($node->attributes == null)
+				continue;
+			/**
+			 * @var \DOMElement $node
+			 */
+			dump($node->attributes->getNamedItem('groupName'));
+		}
+
+	}
 }

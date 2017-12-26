@@ -1,0 +1,23 @@
+{
+  "name": "eve-bridge",
+  "description": "The bridge between a laravel application and EVE Online api.",
+  "require": {
+    "larapack/hooks": "~1.0",
+    "laravel/socialite": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "EveBridge\\": "src/"
+    }
+  },
+  "extra": {
+    "hook": {
+      "providers": [
+        "EveBridge\\EveBridgeServiceProvider"
+      ],
+      "aliases": {
+        "Eve": "EveBridge\\Facades\\Eve"
+      }
+    }
+  }
+}

@@ -2,6 +2,7 @@
 
 namespace App;
 
+use EveBridge\Traits\EveAccount;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
@@ -29,10 +30,12 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
  * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereRoleId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @property string|null $username
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereUsername($value)
  */
 class User extends \TCG\Voyager\Models\User
 {
-    use Notifiable;
+    use Notifiable, EveAccount;
 
     /**
      * The attributes that are mass assignable.
@@ -40,7 +43,7 @@ class User extends \TCG\Voyager\Models\User
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'username', 'avatar'
     ];
 
     /**
@@ -52,7 +55,12 @@ class User extends \TCG\Voyager\Models\User
         'password', 'remember_token',
     ];
 
-    public function display(){
+	public function getRouteKeyName() {
+		return 'username';
+	}
+
+
+	public function display(){
     	return $this->name ?: $this->email;
     }
 

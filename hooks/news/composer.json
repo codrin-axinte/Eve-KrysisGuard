@@ -1,0 +1,19 @@
+{
+  "name": "news",
+  "description": "Social activity for application",
+  "require": {
+    "larapack/hooks": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "News\\": "src/"
+    }
+  },
+  "extra": {
+    "hook": {
+      "providers": [
+        "News\\NewsServiceProvider"
+      ]
+    }
+  }
+}

@@ -10,9 +10,12 @@
     "require": {
         "php": ">=7.0.0",
         "doctrine/dbal": "^2.6",
+        "eve-bridge": "dev-master",
         "fideloper/proxy": "~3.3",
         "laravel/framework": "5.5.*",
+        "laravel/socialite": "^3.0",
         "laravel/tinker": "~1.0",
+        "miner": "dev-master",
         "tcg/voyager": "^1.0"
     },
     "require-dev": {
@@ -63,6 +66,14 @@
         "hooks": {
             "type": "composer",
             "url": "https://larapack.io"
+        },
+        "eve-bridge": {
+            "type": "path",
+            "url": "hooks/eve-bridge"
+        },
+        "miner": {
+            "type": "path",
+            "url": "hooks/miner"
         }
     }
 }
