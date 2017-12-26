@@ -1,7 +1,8 @@
 # Eve Corp
 > EVE Online corporation website.
-
 ![Intro Image](https://github.com/codrin-axinte/Eve-Corp/blob/master/public/images/bg1.jpg)
+
+## Description
 The main purpose of this application it was the Ore Calculator which will calculate the ore unit price set by the corp director by the amount mined. After some updates, we decided to grow it and make it an official corporation website with more features to help all of us from beginners to the more experienced players.
 
 > Ore Calculator Snapshot
