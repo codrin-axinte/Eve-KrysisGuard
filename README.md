@@ -11,14 +11,14 @@ The main purpose of this application it was the Ore Calculator which will calcul
 ## About The Corp
 > Welcome to the Guard Capsuleer, 
 
- Krysis Guard was commissioned during the turmoil of the Amarr Empire's downfall to the Minmatar Republic forces over the past year.
+> Krysis Guard was commissioned during the turmoil of the Amarr Empire's downfall to the Minmatar Republic forces over the past year.
 With our systems destroyed, the High Council of the Royal Families commissioned an independent body of Paladins to reclaim lost systems and worlds put to flame from the Republic's Navies and Militias. With that - We hold carry our Shields and Swords and trust in the wings of the Angels to carry us forward. 
 
- Krysis Guard is a PvE-vP based corporation operating in Amarr Faction Warfare Low-sec systems. Faction Warfare allows us to have in a friendly casual environment 24.7 PvP activities while maintaining a strong industrial backbone and economy. 
+> Krysis Guard is a PvE-vP based corporation operating in Amarr Faction Warfare Low-sec systems. Faction Warfare allows us to have in a friendly casual environment 24.7 PvP activities while maintaining a strong industrial backbone and economy. 
 
- We provide a seeded market in our primary system as well as daily PvP fleets and Mining fleets. From our mining fleets - Krysis Guard authorizes purchases from its members via contracts for all ore mined at set prices giving our industrial members the ability to generate incomes. 
+> We provide a seeded market in our primary system as well as daily PvP fleets and Mining fleets. From our mining fleets - Krysis Guard authorizes purchases from its members via contracts for all ore mined at set prices giving our industrial members the ability to generate incomes. 
 
- We hope you will enjoy your time while flying with and fighting for the Guard.
+> We hope you will enjoy your time while flying with and fighting for the Guard.
  
 ### Resources War
 > Join the resource war and earn millions of ISK. Mine alongside our fleet and sell your stack according to the unit price of the ore, make sure you check the prices every day.
