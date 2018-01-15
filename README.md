@@ -46,7 +46,7 @@ As for tooling I am using my old friend [PhpStorm](https://www.jetbrains.com/php
 Sometimes I use [Visual Code](https://code.visualstudio.com/) too for fast editing and prototyping.
 
 ## Release History
-`
+```
 * 2017.4
     * CHANGED: Moved app scripts in separate hooks.
     * ADDED: SSO Login with EVE ONLINE
@@ -63,7 +63,7 @@ Sometimes I use [Visual Code](https://code.visualstudio.com/) too for fast editi
     * ADDED: Ore Calculator
 * 2017.0
     * Work in progress
-`
+```
 ## Meta
 
 Codrin Axinte – [@LinkedIn](https://www.linkedin.com/in/codrin-axinte-93776814b/)
