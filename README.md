@@ -45,25 +45,6 @@ An amazing ORM, painless routing, powerful queue library, and simple authenticat
 As for tooling I am using my old friend [PhpStorm](https://www.jetbrains.com/phpstorm/). I've talked about it [here](https://github.com/codrin-axinte/Glossary-of-Tech-Terms/blob/master/IDE.md#personal-choices)
 Sometimes I use [Visual Code](https://code.visualstudio.com/) too for fast editing and prototyping.
 
-## Release History
-
-* 2017.4
-    * CHANGED: Moved app scripts in separate hooks.
-    * ADDED: SSO Login with EVE ONLINE
-* 2017.3
-    * CHANGED: Killboard loads in frame
-    * ADDED: Blog
-    * ADDED: About The Corp text
-* 2017.2
-    * CHANGED: To professional design
-    * ADDED: Killboard
-    * ADDED: Download Desktop Application
-* 2017.1
-    * The first proper release
-    * ADDED: Ore Calculator
-* 2017.0
-    * Work in progress
-
 ## Meta
 
 Codrin Axinte – [@LinkedIn](https://www.linkedin.com/in/codrin-axinte-93776814b/)

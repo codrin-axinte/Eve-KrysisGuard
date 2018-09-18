@@ -20,8 +20,6 @@ class AppServiceProvider extends ServiceProvider
     {
 	    Schema::defaultStringLength( 191 );
 
-	    \View::share('site_title', setting('site.title', config('app.name')));
-
 		$this->bootVoyager();
 
     }

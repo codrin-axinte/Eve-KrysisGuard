@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>@yield('title', 'Welcome') | {{ $site_title }}</title>
+    <title>@yield('title', 'Welcome') | {{ $site_title = setting('site.title', config('app.name')) }}</title>
     <link rel="icon" type="image/png" href="{{ asset('favicon.ico') }}">
     {{-- START: Styles --}}
     {{-- Google Fonts --}}

@@ -23,7 +23,7 @@
         <div class="nk-header-table">
             <div class="nk-header-table-cell">
                 <div class="container">
-                    <div class="nk-header-text"><h1 class="nk-title display-3">Welcome to {{ $site_title }}</h1>
+                    <div class="nk-header-text"><h1 class="nk-title display-3">Welcome to {{ config('app.name')  }}</h1>
                         <div class="nk-gap-2"></div>
                         <a href="{{ route('miner.ores.index') }}"
                            class="nk-btn nk-btn-lg nk-btn-color-main-1 link-effect-4">
