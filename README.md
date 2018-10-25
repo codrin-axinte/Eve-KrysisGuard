@@ -1,5 +1,6 @@
 # Eve Corp
 > A CMS website for a corporation in the EVE Online game.
+
 ![Intro Image](https://github.com/codrin-axinte/Eve-Corp/blob/master/public/images/bg1.jpg)
 
 ## Description
